@@ -1,0 +1,22 @@
+# env
+.env
+.env.*
+!.env.example
+
+# dependencies
+node_modules/
+.pnpm-store/
+
+# builds
+dist/
+build/
+coverage/
+
+# logs
+*.log
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/extensions.json
